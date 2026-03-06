@@ -1,5 +1,26 @@
 # Changelog
 
+## [11.11.1](https://github.com/npm/cli/compare/v11.11.0...v11.11.1) (2026-03-06)
+### Bug Fixes
+* [`a29aeee`](https://github.com/npm/cli/commit/a29aeee18f3ddc2348a8e00787d237c874642789) [#9028](https://github.com/npm/cli/pull/9028) arborist: retry bin-links on Windows EPERM (#9028) (@manzoorwanijk)
+* [`6565eeb`](https://github.com/npm/cli/commit/6565eeb818494e1feb4e14492804ce936b394b4a) [#9045](https://github.com/npm/cli/pull/9045) bypass packument cache to prevent ETARGET errors after publish (#9045) (@Jadu07)
+### Documentation
+* [`3b96929`](https://github.com/npm/cli/commit/3b96929166a55f7f0c346f9715988ec1e1ce195d) [#9074](https://github.com/npm/cli/pull/9074) scripts: remove mention of obsolete root user behavior (#9074) (@mohd-akram)
+* [`16ac4e0`](https://github.com/npm/cli/commit/16ac4e02796248f3abb4fa043427236cda22a902) [#9054](https://github.com/npm/cli/pull/9054) fix workspace cross-dependency documentation (@owlstronaut)
+### Dependencies
+* [`bf7ea2b`](https://github.com/npm/cli/commit/bf7ea2b19f5446d3c3a33de2844f7504cc418570) [#9060](https://github.com/npm/cli/pull/9060) `brace-expansion@5.0.4`
+* [`2000d2c`](https://github.com/npm/cli/commit/2000d2ce858c79664c6255d78485580b0d65f5b4) [#9060](https://github.com/npm/cli/pull/9060) `minimatch@10.2.4`
+* [`d86b260`](https://github.com/npm/cli/commit/d86b260103358e6f8dd7d9cc2526ac3144d595c8) [#9060](https://github.com/npm/cli/pull/9060) `tar@7.5.10`
+* [`dff1853`](https://github.com/npm/cli/commit/dff1853ed6e5b4acfdd36d0109cb2ebe27693a6f) [#9060](https://github.com/npm/cli/pull/9060) `@npmcli/run-script@10.0.4`
+* [`93c3365`](https://github.com/npm/cli/commit/93c33658f6ac4e83cff83a0e064b222f1b36a515) [#9060](https://github.com/npm/cli/pull/9060) `write-file-atomic@7.0.1`
+### Chores
+* [`d1996a7`](https://github.com/npm/cli/commit/d1996a7a79982f616600d134dbdcfb223cd0d81d) [#9060](https://github.com/npm/cli/pull/9060) dev dependency updates (@wraithgar)
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.4.1): `@npmcli/arborist@9.4.1`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmdiff-v8.1.4): `libnpmdiff@8.1.4`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmexec-v10.2.4): `libnpmexec@10.2.4`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.18): `libnpmfund@7.0.18`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.4): `libnpmpack@9.1.4`
+
 ## [11.11.0](https://github.com/npm/cli/compare/v11.10.1...v11.11.0) (2026-02-25)
 ### Features
 * [`4fcd352`](https://github.com/npm/cli/commit/4fcd352c553fdc0f13a87ad71ef66d7515c11886) [#9017](https://github.com/npm/cli/pull/9017) add :type(registry) to query selector syntax (#9017) (@wraithgar)
