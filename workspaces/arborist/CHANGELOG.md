@@ -1,5 +1,10 @@
 # Changelog
 
+## [8.0.3](https://github.com/npm/cli/compare/arborist-v8.0.2...arborist-v8.0.3) (2026-03-06)
+### Bug Fixes
+* [`f95f368`](https://github.com/npm/cli/commit/f95f36817abba3ad4c5a983324d2eb1722ced35e) [#9075](https://github.com/npm/cli/pull/9075) consolidate isolated node/link attributes (#9075) (@wraithgar)
+* [`2d83231`](https://github.com/npm/cli/commit/2d832315d67683af65b02610446f469f0e49a5ee) [#9064](https://github.com/npm/cli/pull/9064) arborist: add missing top property to isolated reifier proxy nodes (#9064) (@manzoorwanijk)
+
 ## [8.0.2](https://github.com/npm/cli/compare/arborist-v8.0.1...arborist-v8.0.2) (2026-03-04)
 ### Bug Fixes
 * [`794f6c8`](https://github.com/npm/cli/commit/794f6c8f0d56698430d05430777d22dbfa92b353) [#9011](https://github.com/npm/cli/pull/9011) backport linked strategy fixes from multiple PRs to v10 (#9011) (@manzoorwanijk)

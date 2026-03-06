@@ -1,5 +1,13 @@
 # Changelog
 
+### Dependencies
+
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v8.0.3): `@npmcli/arborist@8.0.3`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmdiff-v7.0.3): `libnpmdiff@7.0.3`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmexec-v9.0.3): `libnpmexec@9.0.3`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmfund-v6.0.3): `libnpmfund@6.0.3`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmpack-v8.0.3): `libnpmpack@8.0.3`
+
 ## [10.9.5](https://github.com/npm/cli/compare/v10.9.4...v10.9.5) (2026-03-04)
 ### Bug Fixes
 * [`794f6c8`](https://github.com/npm/cli/commit/794f6c8f0d56698430d05430777d22dbfa92b353) [#9011](https://github.com/npm/cli/pull/9011) backport linked strategy fixes from multiple PRs to v10 (#9011) (@manzoorwanijk)
