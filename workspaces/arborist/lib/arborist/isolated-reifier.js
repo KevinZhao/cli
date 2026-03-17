@@ -4,6 +4,7 @@ const { join } = require('node:path')
 const { depth } = require('treeverse')
 const crypto = require('node:crypto')
 const { IsolatedNode, IsolatedLink } = require('../isolated-classes.js')
+const nameFromFolder = require('@npmcli/name-from-folder')
 
 // generate short hash key based on the dependency tree starting at this node
 const getKey = (startNode) => {
@@ -191,7 +192,7 @@ module.exports = cls => class IsolatedReifier extends cls {
     result.id = this.counter++
     /* istanbul ignore next - packageName is always set for real packages */
     result.name = result.isWorkspace ? (node.packageName || node.name) : node.name
-    result.packageName = node.packageName || node.name
+    result.packageName = nameFromFolder(node.packageName) || nameFromFolder(node.path)
     result.package = { ...node.package }
     result.package.bundleDependencies = undefined
 
