@@ -192,7 +192,7 @@ module.exports = cls => class IsolatedReifier extends cls {
     result.id = this.counter++
     /* istanbul ignore next - packageName is always set for real packages */
     result.name = result.isWorkspace ? (node.packageName || node.name) : node.name
-    result.packageName = nameFromFolder(node.packageName) || nameFromFolder(node.path)
+    result.packageName = nameFromFolder(node.packageName || node.path)
     result.package = { ...node.package }
     result.package.bundleDependencies = undefined
 
